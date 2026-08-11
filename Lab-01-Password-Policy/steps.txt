@@ -1,0 +1,16 @@
+                                            Cisco password policy and it's recovery management :-
+  step 1 : Set password 
+          R1> enable 
+          R1#configure terminal
+          R1(config)#enable secret 1234
+          R1(config)#exit
+          R1#copy running-config startup-config
+          Destination filename [startup-config]?
+          Building configuration...
+          [OK]
+  step 2 : reset router password 
+          To restart the router password , restart the router and press ctrl+c to enter into the rommon 1>
+          rommon 1> config 0*2142
+          reset     
+
+          
