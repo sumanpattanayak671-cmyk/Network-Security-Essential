@@ -1,4 +1,4 @@
-# Assignment 3 – Configuring Cisco Routing Protocol Authentication
+# Configuring Cisco Routing Protocol Authentication
 
 This lab demonstrates authentication configuration for three Cisco routing protocols:
 
